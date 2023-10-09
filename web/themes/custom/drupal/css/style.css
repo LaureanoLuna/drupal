@@ -1,0 +1,10 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+
+
+h1,
+p {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+}
