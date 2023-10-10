@@ -1266,6 +1266,79 @@
             "install-path": "../../web/modules/contrib/gin_toolbar"
         },
         {
+            "name": "drupal/material_base",
+            "version": "2.0.0",
+            "version_normalized": "2.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/material_base.git",
+                "reference": "8.x-2.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/material_base-8.x-2.0.zip",
+                "reference": "8.x-2.0",
+                "shasum": "afb89fc5e35be18d5eb67f35d92a0de09cfa8679"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "8.x-2.0",
+                    "datestamp": "1668454023",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "Andrey Yurtaev (iamdroid)",
+                    "homepage": "https://www.drupal.org/u/iamdroid",
+                    "role": "Maintainer"
+                },
+                {
+                    "name": "beloglazov91",
+                    "homepage": "https://www.drupal.org/user/3431497"
+                },
+                {
+                    "name": "branimir.juranic",
+                    "homepage": "https://www.drupal.org/user/3331091"
+                },
+                {
+                    "name": "iamdroid",
+                    "homepage": "https://www.drupal.org/user/892728"
+                },
+                {
+                    "name": "kalabro",
+                    "homepage": "https://www.drupal.org/user/1399638"
+                },
+                {
+                    "name": "pavel.bulat",
+                    "homepage": "https://www.drupal.org/user/3568596"
+                },
+                {
+                    "name": "Spleshka",
+                    "homepage": "https://www.drupal.org/user/810676"
+                }
+            ],
+            "description": "Base theme inspirited by Material Design concept.",
+            "homepage": "https://www.drupal.org/project/material_base",
+            "support": {
+                "source": "https://git.drupalcode.org/project/material_base",
+                "issues": "https://www.drupal.org/project/issues/material_base"
+            },
+            "install-path": "../../web/themes/contrib/material_base"
+        },
+        {
             "name": "drupal/pathauto",
             "version": "1.12.0",
             "version_normalized": "1.12.0.0",
@@ -1335,6 +1408,53 @@
                 "documentation": "https://www.drupal.org/docs/8/modules/pathauto"
             },
             "install-path": "../../web/modules/contrib/pathauto"
+        },
+        {
+            "name": "drupal/tara",
+            "version": "10.1.2",
+            "version_normalized": "10.1.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/tara.git",
+                "reference": "10.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/tara-10.1.2.zip",
+                "reference": "10.1.2",
+                "shasum": "a110b080f5ec5843a4236d4919b7ee44e3ced95c"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "10.1.2",
+                    "datestamp": "1694332694",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ravis",
+                    "homepage": "https://www.drupal.org/user/79351"
+                }
+            ],
+            "description": "<p>Tara is a light weight modern Drupal 8, 9, 10 theme by <a href=\"https://drupar.com/\" target=\"_blank\">Drupar.com</a></p><p><a href=\"https://drupar.com/theme/tara\" target=\"_blank\">Theme Homepage</a> | <a href=\"https://drupar.com/tara-theme-documentation\" target=\"_blank\">User Guide</a></p>",
+            "homepage": "https://www.drupal.org/project/tara",
+            "support": {
+                "source": "https://git.drupalcode.org/project/tara"
+            },
+            "install-path": "../../web/themes/contrib/tara"
         },
         {
             "name": "drupal/token",
@@ -1407,6 +1527,53 @@
                 "source": "https://git.drupalcode.org/project/token"
             },
             "install-path": "../../web/modules/contrib/token"
+        },
+        {
+            "name": "drupal/vani",
+            "version": "10.0.1",
+            "version_normalized": "10.0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://git.drupalcode.org/project/vani.git",
+                "reference": "10.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://ftp.drupal.org/files/projects/vani-10.0.1.zip",
+                "reference": "10.0.1",
+                "shasum": "ce9b253619f1e4486ea00d71e35bc35cc1b5d38e"
+            },
+            "require": {
+                "drupal/core": "^9 || ^10"
+            },
+            "type": "drupal-theme",
+            "extra": {
+                "drupal": {
+                    "version": "10.0.1",
+                    "datestamp": "1695651010",
+                    "security-coverage": {
+                        "status": "covered",
+                        "message": "Covered by Drupal's security advisory policy"
+                    }
+                }
+            },
+            "installation-source": "dist",
+            "notification-url": "https://packages.drupal.org/8/downloads",
+            "license": [
+                "GPL-2.0-or-later"
+            ],
+            "authors": [
+                {
+                    "name": "ravis",
+                    "homepage": "https://www.drupal.org/user/79351"
+                }
+            ],
+            "description": "A light weight, Clean, flexible, fully responsive and multi-purpose Drupal 8, 9, 10 theme by <a href=\"https://drupar.com\" target=\"_blank\">Drupar.com</a><br /><a href=\"https://drupar.com/theme/vani\" target=\"_blank\">Theme Page</a> | <a href=\"https://drupar.com/vani-documentation\" target=\"_blank\">Theme Documentation</a> | <a href=\"https://demo2.drupar.com/vani\" target=\"_blank\">Demo</a>",
+            "homepage": "https://www.drupal.org/project/vani",
+            "support": {
+                "source": "https://git.drupalcode.org/project/vani"
+            },
+            "install-path": "../../web/themes/contrib/vani"
         },
         {
             "name": "drupal/views_bootstrap",

@@ -24,7 +24,10 @@
         "drupal/fontyourface": "^4.0",
         "drupal/gin": "^3.0@RC",
         "drupal/gin_toolbar": "^1.0@rc",
+        "drupal/material_base": "^2.0",
         "drupal/pathauto": "^1.12",
+        "drupal/tara": "^10.1",
+        "drupal/vani": "^10.0",
         "drupal/views_bootstrap": "4.4"
     },
     "conflict": {
